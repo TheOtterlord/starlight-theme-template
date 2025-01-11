@@ -2,7 +2,7 @@
   Starlight Theme Template
 </h1>
 
-![Starlight theme preview](../../assets/preview.png)
+![Starlight theme preview](https://raw.githubusercontent.com/TheOtterlord/starlight-theme-template/refs/heads/main/assets/preview.png)
 
 ## Usage
 

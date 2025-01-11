@@ -2,7 +2,7 @@
 
 Follow these steps to create your new Starlight theme.
 
-- [ ] Update the package name, author, and URL in [packages/theme/package.json](packages/theme/package.json) and the [README](packages/theme/README.md), and remove `"private": true`.
+- [ ] Update the package name, author, and URL in [packages/theme/package.json](packages/theme/package.json) and the [README](packages/theme/README.md), and remove `"private": true` from `package.json`.
 - [ ] Update the dependency in [apps/docs/package.json](apps/docs/package.json) and [apps/docs/astro.config.ts](apps/docs/astro.config.ts) to your new theme package name.
 - [ ] Update the [LICENSE](LICENSE) to include your name.
 - [ ] Add your theme name/description/logos to the docs in [apps/docs/astro.config.ts](apps/docs/astro.config.ts).
