@@ -1,0 +1,31 @@
+---
+title: Install Theme
+description: Install the template theme for Starlight.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+import { PackageManagers } from 'starlight-package-managers'
+
+<Steps>
+
+1. Install the theme package to your project with your preferred package manager:
+   <PackageManagers pkg="starlight-theme-template"/>
+
+2. Add the theme to your Starlight config.
+   ```ts title="astro.config.mjs" ins={1,9}
+   import theme from "starlight-theme-template";
+
+   export default defineConfig({
+     // ...
+     integrations: [
+       starlight({
+         // ...
+         plugins: [
+           theme()
+         ]
+       })
+     ]
+   })
+   ```
+
+</Steps>

@@ -1,0 +1,16 @@
+{
+  "name": "@example/starlight-theme-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "ci:publish": "pnpm publish -r",
+    "ci:version": "pnpm changeset version",
+    "dev": "pnpm --filter docs dev",
+    "build": "pnpm --filter docs build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@changesets/cli": "^2.27.11"
+  },
+  "packageManager": "pnpm@9.15.3"
+}

@@ -1,0 +1,33 @@
+{
+	"name": "starlight-theme-template",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"license": "MIT",
+	"exports": {
+		".": "./index.ts",
+		"./styles/*": "./styles/*"
+	},
+	"homepage": "https://starlight-theme-template.otterlord.dev/",
+	"author": "Reuben Tier <otterlord.dev@gmail.com>",
+	"files": [
+		"index.ts",
+		"styles"
+	],
+	"keywords": [
+		"withastro",
+		"starlight"
+	],
+	"devDependencies": {
+		"astro": "catalog:",
+		"typescript": "catalog:"
+	},
+	"peerDependencies": {
+		"@astrojs/starlight": "^0.30.0",
+		"astro": "^5.0.0"
+	},
+	"dependencies": {
+		"@astrojs/starlight": "catalog:",
+		"astro-expressive-code": "^0.38.3"
+	}
+}
