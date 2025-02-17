@@ -4,7 +4,7 @@ export default function createPlugin(): StarlightPlugin {
 	return {
 		name: "starlight-theme-template",
 		hooks: {
-			setup: ({ config, updateConfig }) => {
+			"config:setup": ({ config, updateConfig }) => {
 				// Update the Starlight config to inject your custom css
 				updateConfig({
 					customCss: [
